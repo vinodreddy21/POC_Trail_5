@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>phone_number1</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL( Ownership , &#39;Private&#39;),  ISBLANK( Phone )  )</errorConditionFormula>
+    <errorMessage>phone number required</errorMessage>
+</ValidationRule>
